@@ -1,4 +1,4 @@
-var Do = new function() {
+function Do() {
 	var close1 = document.getElementById('Image1');
 	setInterval(
 		function(){ 
