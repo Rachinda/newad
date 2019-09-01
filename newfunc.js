@@ -1,4 +1,3 @@
-(function() {
 	var close1 = document.getElementById('Image1');
 	setInterval(
 		function(){ 
@@ -19,5 +18,3 @@
 				console.log("Click Next");
 			}
 		}, 1000);
-
-})();
