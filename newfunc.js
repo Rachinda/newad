@@ -1,5 +1,6 @@
-<script>	
-var close1 = document.getElementById('Image1');
+(function() {
+
+	var close1 = document.getElementById('Image1');
 	setInterval(
 		function(){ 
 			if(close1){
@@ -19,4 +20,5 @@ var close1 = document.getElementById('Image1');
 				console.log("Click Next");
 			}
 		}, 1000);
-</script>
+
+})();
