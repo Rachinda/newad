@@ -1,5 +1,4 @@
-function() {
-
+(function() {
 	var close1 = document.getElementById('Image1');
 	setInterval(
 		function(){ 
@@ -21,4 +20,4 @@ function() {
 			}
 		}, 1000);
 
-}();
+})();
